@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NewProjectDialog</class>
+ <widget class="QDialog" name="NewProjectDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>432</width>
+    <height>178</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel {
+	color: #b6b6b6;
+}
+
+QDialog {
+	background-color: #3f51b5;
+}
+
+QLineEdit {
+	background-color: #3f51b5;
+	border: none;
+	color: white;
+}
+
+QPushButton {
+	border-radius: 2px;
+	color: white;
+	background-color: #4caf50;
+	height: 20px;
+	width: 80px;
+}</string>
+  </property>
+  <property name="locale">
+   <locale language="French" country="France"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="2">
+    <widget class="QLineEdit" name="projectPath">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: #b6b6b6;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLineEdit" name="projectName">
+     <property name="styleSheet">
+      <string notr="true">border-bottom: 1px solid #c5cae9;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Créer dans :</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="4">
+    <widget class="QPushButton" name="Browse">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	background-color: #303f9f;
+}
+
+QPushButton:pressed {
+	background-color: #c5cae9;
+}</string>
+     </property>
+     <property name="text">
+      <string>PARCOURIR</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Nom du projet :</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="4">
+    <widget class="QPushButton" name="Confirm">
+     <property name="text">
+      <string>VALIDER</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/Accueil/logo.png</file>
+        <file>images/FileMenu/new.png</file>
+        <file>images/FileMenu/open.png</file>
+        <file>images/FileMenu/save.png</file>
+        <file>images/Player/play.png</file>
+        <file>images/Player/stop.png</file>
+        <file>images/Player/pause.png</file>
+        <file>sounds/tick.wav</file>
+        <file>images/Accueil/add_project.png</file>
+        <file>images/Accueil/documents-icon.png</file>
+        <file>images/Accueil/import-icon.png</file>
+        <file>images/Accueil/logo_white.png</file>
+        <file>translations/englishTranslation.qm</file>
+        <file>translations/englishTranslation.ts</file>
+        <file>images/Accueil/flag-france.png</file>
+        <file>images/Accueil/flag-united-kingdom.png</file>
+    </qresource>
+</RCC>
